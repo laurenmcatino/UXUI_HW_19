@@ -1,0 +1,228 @@
+body {
+    margin: 0;  
+}
+
+header {
+    padding: 40px 40px;
+    font-family: 'Gowun Batang', serif;
+}
+
+.hireMe{
+    float: right;
+    font-size: 15px;
+    font-family: 'Gowun Batang', serif;
+    padding: 0px 20px 0px 20px;
+    border-style: solid;
+    border-width: 2px; 
+    
+}
+
+header ul {
+    float: right;
+    padding-right: 40px;
+}
+
+header li {
+    font-size: 24px;
+    display: inline-block;
+    padding: 10px 40px 20px 40px;
+}
+
+.intro{
+    padding: 50px 50px 0px;
+    margin: 30px ;
+}
+    
+h2{
+    font-family: 'Gowun Batang', serif;
+    font-size: 25px;
+    float: inline-end;
+}
+
+h1{
+    font-family: 'Gowun Batang', serif;
+    font-size: 30px;
+}
+
+p{
+    font-family: sf pro;
+    font-size: 25px; 
+}
+
+#resumeButton{
+    border-width: 2px;
+    border-color: black;
+    font-size: large;
+    background-color: white;
+    font-family: 'Gowun Batang', serif;
+}
+
+.flex-container {
+    margin: 25px 25px 150px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    padding: 5px;
+   
+}
+
+.wiyf{
+    padding:100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(160, 60, 60);
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+
+}
+
+.globetrot{
+    padding:100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: orange;
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.deptofenergy{
+    padding:100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: teal;
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.plannedPethood{
+    padding:100px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: orange;
+    color: white;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+.containerGrid{
+    display: grid;
+    margin-bottom: 10%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-area: span;
+    float: center;
+    justify-content: space-between;
+    align-content: center;
+  }
+   
+
+.skill1{
+    margin-left: 50%;
+    padding:100px;
+    border-style: solid;
+    border-color: rgb(160, 60, 60);
+    border-width: 15px;
+    color: black;
+    height: 240px;
+    width: 300px;
+    text-align: center;
+}
+
+.diamondIcon{
+    height: 100px;
+}
+
+.skill2{
+    padding:100px;
+    border-style: solid;
+    border-color: orange;
+    border-width: 15px;
+    color: black;
+    height: 240px;
+    width: 300px;
+    text-align: center;
+}
+
+.checkIcon{
+    height: 100px;
+}
+
+.skill3{
+    margin-top: 10px;
+    margin-left: 50%;
+    padding:100px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: orange;
+    color: black;
+    height: 240px;
+    width: 300px;
+    text-align: center;
+}
+
+.phoneIcon{
+    height: 100px;
+}
+
+.skill4{
+    margin-top: 10px;
+    padding:100px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: teal;
+    color: black;
+    height: 240px;
+    width: 300px;
+    text-align: center;
+}
+
+.personaIcon{
+    height: 100px;
+}
+
+
+.footer{
+    flex-shrink: 0;
+}
+
+Footer li {
+    font-family: 'Gowun Batang', serif;
+    font-size: 25px; 
+    display: inline-block;
+    padding: 3%;
+}
+
+@media only screen and (max-width:600){
+.flex-container {
+    display: flex;
+    flex: 100%;
+    max-width: 100%;
+    flex-direction: column;
+}
+}
+
+@media only screen and (max-width:600){
+.containerGrid {
+    display: grid;
+    margin-bottom: 10%;
+    float: center;
+    justify-content: space-between;
+    align-content: center;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "skill1"
+    "skill2"
+    "skill3"
+    "skill4"
+    ;
+}
+}
